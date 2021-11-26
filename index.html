@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>
-    <img src="./logo.png" alt="logo" width="350">
+<header id="home">
+    <img src="./logo.png" alt="logo" width="250">
     <h1>Мой сайт портфолио</h1>
     <nav>
     <h2>Навигация по странице</h2>
-    <a href="">Главная</a>
-    <a href="">Обо мне</a>
-    <a href="">Мои работы</a>
-    <a href="">Контактная информация</a>
+    <a href="#home">Главная</a>
+    <a href="#about me">Обо мне</a>
+    <a href="#my works">Мои работы</a>
+    <a href="#contacts">Контактная информация</a>
     </nav>
 </header>
 <hr>
@@ -24,17 +24,17 @@
 <section>
     <h2>Всем привет! Я веб-разработчик.</h2>
     <p>Начинающий фронтендер</p>
-    <video src="./video.mp4" muted autoplay>Ваш браузер не поддерживает формат видео</video>
+    <video src="./video.mp4" muted autoplay width="380">Ваш браузер не поддерживает формат видео</video>
     <p>Это видео которое будет на фоне</p>
 </section>
 <hr>
-<section>
+<section id="about me">
     <img src="./picture.jpg" alt="picture" width="350">
     <h2>Немного обо мне</h2>
     <p>Я начинающий веб-разработчик, и это сайт в котором собраны мои лучшие работы. Здесь можешь написать что то интресное о себе как о веб-разработчике. Потренируй копирайт)</p>
 </section>
 <hr>
-<section>
+<section id="my works">
     <h2>Мои работы</h2>
     <audio src="./music.mp3" controls>Ваш браузер не поддерживает формат аудио</audio>
 </section>
@@ -55,7 +55,7 @@
 <hr>
 <section>
     <h2>Прайс-лист</h2>
-    <table>
+    <table border="1">
     <thead>
         <tr>
             <th>№</th>
@@ -116,23 +116,28 @@
         <legend>Форма обратной связи</legend>
         <form action="" method="GET">
             <div>
-                <label for="">Как Вас зовут?</label>
-                <input type="text" name="text" id="">
+                <label for="">Как Вас зовут?</label><br>
+                <input type="text" name="text" id="" placeholder="Например: Иван"><br><br>
             </div>
             <div>
-                <label for="">Тема для общения</label>
-                <input type="">
+                <label for="parameterSelect">Тема для общения</label><br>
+                <select name="Topic for communication" id="parameterSelect">
+                    <option value="Website development">Разработка сайта</option>
+                    <option value="Layout design fabrication">Изготовлений дизайн макета</option>
+                    <option value="Just chat">Просто пообщаться</option>
+                    <option value="Another topic">Другая тема</option>
+                </select><br><br>
             </div>
             <div>
-                <label for="">Прикрепите изображение</label>
-                <input type="file">
+                <label for="fileInput">Прикрепите изображение</label><br>
+                <input type="file" name="fileInput"><br><br>
             </div>
             <div>
-                <textarea name="textarea" id="" cols="30" rows="10">Ваше сообщение</textarea>
+                <textarea name="textarea" id="" cols="30" rows="10">Ваше сообщение</textarea><br><br>
             </div>
             <div>                
                 <input type="checkbox" name="agree" id="checkboxAgree">
-                <label for="">Я согласен с обработкой персональных данных</label>
+                <label for="checkboxAgree">Я согласен с обработкой персональных данных</label><br><br>
             </div>
             <div>                
                 <button>Отправить сообщение</button>
@@ -141,7 +146,7 @@
     </fieldset>
 </section>
 <hr>
-<section>
+<section id="contacts">
     <h2>Контактная информация</h2>
     <p>Email: test@example.com</p>
     <p>Телефон: +7 (965) 000-00-00</p>
@@ -150,15 +155,16 @@
 </section>
 </main>
 <footer>
-    <img src="./logo.png" alt="logo" width="350">
+    <img src="./logo.png" alt="logo" width="250">
     <h2>Мой сайт портфолио</h2>
     <p>Email: test@example.com</p>
     <p>Телефон: +7 (965) 000-00-00</p>
-    <p>Социальные сети:</p>
+    <p>Социальные сети:
     <a href="https://vk.com/">vkontakte</a>
     <a href="https://twitter.com/">twitter</a>
     <a href="https://www.facebook.com/">facebook</a>
-    <a href="https://www.instagram.com/?hl=ru">instagramm</a>
+    <a href="https://www.instagram.com/?hl=ru">instagramm</a><br>
+    </p>
     <a href="./policy.html">Политика конфиденциальности</a>
 </footer>
 </body>
