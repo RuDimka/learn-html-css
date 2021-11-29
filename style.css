@@ -1,6 +1,36 @@
 .header {
     color: #f1682c;
 }
-.navigation_nav {
+.navigation__head {
     color: red;
+}
+.navigation__href__home {
+    color: saddlebrown;
+}
+.navigation__href__aboutme {
+    color: yellow;
+}
+.navigation__href__myworks {
+    color: yellowgreen;
+}
+.navigation__href__contacts {
+    color: violet;
+}
+.section__head {
+    color: blue;
+}
+.section__paragraph {
+    color: chartreuse;
+}
+.section__paragraph__paragraph {
+    color: chocolate;
+}
+.section__section__head {
+    color: blue;
+}
+.section__section__paragraph {
+    color: navy;
+}
+.section__section__section__head {
+    color: blue;
 }
