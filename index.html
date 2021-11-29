@@ -39,25 +39,25 @@
     <audio src="./music.mp3" controls>Ваш браузер не поддерживает формат аудио</audio>
 </section>
 <hr>
-<section>
-    <h2>Мои навыки</h2>
-    <ul>
-        <li>HTML 78%</li>
-        <li>CSS 35%</li>
-        <li>Javascript 50%</li>
+<section class="section__my-skills">
+    <h2 class="section__my-skills__head">Мои навыки</h2>
+    <ul class="section__my-skills__list">
+        <li class="section__my-skills__item_red">HTML 78%</li>
+        <li class="section__my-skills__item_blue">CSS 35%</li>
+        <li class="section__my-skills__item_green">Javascript 50%</li>
     </ul>
 </section>
 <hr>
-<section>
-    <h2>Блок с дополнительной видео-информацией</h2>
+<section class="section__video-info">
+    <h2 class="section__video-info__head">Блок с дополнительной видео-информацией</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 <hr>
-<section>
-    <h2>Прайс-лист</h2>
-    <table border="1">
-    <thead>
-        <tr>
+<section class="section__price">
+    <h2 class="section__price__head">Прайс-лист</h2>
+    <table border="1" class="section__price__table">
+    <thead class="section__price__table-head">
+        <tr class="section__price__row">
             <th>№</th>
             <th>Наименование услуги</th>
             <th>Хостинг</th>
@@ -66,8 +66,8 @@
             <th>Цена</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
+    <tbody class="section__price__table-body">
+        <tr class="section__price__row">
             <td>1</td>
             <td>Лендинг</td>
             <td>есть</td>
@@ -75,7 +75,7 @@
             <td>нет</td>
             <td>5 000 руб.</td>
         </tr>
-        <tr>
+        <tr class="section__price__row">
             <td>2</td>
             <td>Сайт визитка</td>
             <td>есть</td>
@@ -83,7 +83,7 @@
             <td>нет</td>
             <td>10 000 руб.</td>
         </tr>
-        <tr>
+        <tr class="section__price__row">
             <td>3</td>
             <td>Интернет-магазин</td>
             <td>нет</td>
@@ -95,31 +95,31 @@
     </table>
 </section>
 <hr>
-<section>
-    <h2>Преимущества работы со мной</h2>
-    <details>
+<section class="section__benefits">
+    <h2 class="section__benefits__head">Преимущества работы со мной</h2>
+    <details class="section__benefits__details_red">
         <summary>Быстрое решение ваших задач</summary>
         Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Текстов но предложения города грамматики.
     </details>
-    <details>
+    <details class="section__benefits__details_blue">
         <summary>Качественное выполнение работы</summary>
         Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вершину ты буквенных то обеспечивает над буквоград первую маленький которое живет свое, вопроса рыбными залетают!
     </details>
-    <details>
+    <details class="section__benefits__details_green">
         <summary>Применение современных технологий</summary>
         Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Предупредила дороге речью однажды деревни своего путь она, моей на берегу все безопасную взобравшись переписали семь возвращайся свое до но живет. Продолжил, возвращайся маленький? Вопрос, по всей.
     </details>
 </section>
 <hr>
-<section>
+<section class="section__form">
     <fieldset>
         <legend>Форма обратной связи</legend>
         <form action="" method="GET">
-            <div>
-                <label for="">Как Вас зовут?</label><br>
-                <input type="text" name="text" id="" placeholder="Например: Иван"><br><br>
+            <div class="section__form__name">
+                <label for="textFirstname">Как Вас зовут?</label><br>
+                <input type="text" name="firstname" id="textFirstname" placeholder="Например: Иван"><br><br>
             </div>
-            <div>
+            <div class="section__form__select">
                 <label for="parameterSelect">Тема для общения</label><br>
                 <select name="Topic for communication" id="parameterSelect">
                     <option value="Website development">Разработка сайта</option>
@@ -128,33 +128,33 @@
                     <option value="Another topic">Другая тема</option>
                 </select><br><br>
             </div>
-            <div>
+            <div class="section__form__file">
                 <label for="fileInput">Прикрепите изображение</label><br>
                 <input type="file" name="fileInput"><br><br>
             </div>
-            <div>
-                <textarea name="textarea" id="" cols="30" rows="10">Ваше сообщение</textarea><br><br>
+            <div class="section__form__textarea">
+                <textarea name="textarea" cols="30" rows="10">Ваше сообщение</textarea><br><br>
             </div>
-            <div>                
+            <div class="section__form__checkbox">                
                 <input type="checkbox" name="agree" id="checkboxAgree">
                 <label for="checkboxAgree">Я согласен с обработкой персональных данных</label><br><br>
             </div>
-            <div>                
+            <div class="section__form__button">                
                 <button>Отправить сообщение</button>
             </div>
         </form>
     </fieldset>
 </section>
 <hr>
-<section id="contacts">
-    <h2>Контактная информация</h2>
-    <p>Email: test@example.com</p>
-    <p>Телефон: +7 (965) 000-00-00</p>
-    <p>Адрес: г. Пенза</p>
+<section id="contacts" class="section__contacts">
+    <h2 class="section__contacts__head">Контактная информация</h2>
+    <p class="section__contacts__paragraph_red">Email: test@example.com</p>
+    <p class="section__contacts__paragraph_blue">Телефон: +7 (965) 000-00-00</p>
+    <p class="section__contacts__paragraph_green">Адрес: г. Пенза</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152976.55653714584!2d44.89053747016202!3d53.19527654887524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41410062a40af0d1%3A0xbaed6ceca1cba901!2z0J_QtdC90LfQsCwg0J_QtdC90LfQtdC90YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1637932870282!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 </main>
-<footer>
+<footer class="footer">
     <img src="./logo.png" alt="logo" width="250">
     <h2>Мой сайт портфолио</h2>
     <p>Email: test@example.com</p>
