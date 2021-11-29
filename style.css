@@ -91,3 +91,36 @@ span.lable-name {
 .section__form__checkbox {
     font-size: 34px;
 }
+.section__form__button {
+    color: lightpink;
+}
+.section__contacts {
+    font-style: inherit;
+}
+.section__contacts__head{
+    color: blue;
+}
+.section__contacts__paragraph_red {
+    font-family: fantasy;
+}
+.section__contacts__paragraph_blue {
+    color: cornflowerblue;
+}
+.section__contacts__paragraph_green {
+    color: red;
+}
+.footer__head {
+    color: blue; font-size: 32px;
+}
+.footer__paragraph__red {
+    font-size: 16px;
+}
+.footer__paragraph__blue {
+    font-size: 16px;
+}
+.footer__paragraph___social-networks {
+    color: crimson; font-style: italic;
+}
+.footer__policy {
+    font-size: 26px; color: maroon;
+}
