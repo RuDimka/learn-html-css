@@ -4,16 +4,16 @@
 .navigation__head {
     color: red;
 }
-.navigation__href__home {
+.navigation__link__home {
     color: saddlebrown;
 }
-.navigation__href__aboutme {
+.navigation__link__aboutme {
     color: yellow;
 }
-.navigation__href__myworks {
+.navigation__link__myworks {
     color: yellowgreen;
 }
-.navigation__href__contacts {
+.navigation__link__contacts {
     color: violet;
 }
 .section__head {
