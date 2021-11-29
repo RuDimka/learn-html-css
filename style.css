@@ -1,4 +1,4 @@
-.header__logo {
+.header__head {
     color: #f1682c;
 }
 .navigation__head {
@@ -33,4 +33,61 @@
 }
 .section__my-works {
     color: blue;
+}
+.section__section__section__head {
+    color: blue;
+}
+.section__my-skills__head {
+    color: blue;
+}
+.section__my-skills__list {
+    color: crimson;
+}
+.section__my-skills__item_red {
+    color: cyan;
+}
+.section__my-skills__item_blue {
+    color: cyan;
+}
+.section__my-skills__item_green {
+    color: cyan;
+}
+.section__video-info {
+    font-style: initial;
+}
+.section__video-info__head {
+    color: blue;
+}
+.section__price {
+    font-style: italic;
+}
+.section__price__head {
+    color: blue;
+}
+.section__price__table {
+    color: brown;
+}
+.section__benefits {
+    font-style: oblique;
+}
+.section__benefits__details_red {
+    color: yellow;
+}
+.section__benefits__details_blue {
+    color: green;
+}
+.section__benefits__details_green {
+    color: hotpink;
+}
+span.lable-name {
+    font-size: 64px; color: lawngreen;
+}
+.section__form__select {
+    color: red;
+}
+.section__form__file {
+    color: red;
+}
+.section__form__checkbox {
+    font-size: 34px;
 }
