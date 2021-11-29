@@ -1,4 +1,4 @@
-.header {
+.header__logo {
     color: #f1682c;
 }
 .navigation__head {
@@ -16,21 +16,21 @@
 .navigation__link__contacts {
     color: violet;
 }
-.section__head {
+.section__home_head {
     color: blue;
 }
-.section__paragraph {
+.section__home_paragraph {
     color: chartreuse;
 }
 .section__paragraph__paragraph {
     color: chocolate;
 }
-.section__section__head {
+.section__about-me__head {
     color: blue;
 }
-.section__section__paragraph {
+.section__about-me__paragraph {
     color: navy;
 }
-.section__section__section__head {
+.section__my-works {
     color: blue;
 }
