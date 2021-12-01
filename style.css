@@ -1,0 +1,31 @@
+body {
+    color: red;
+}
+
+.header {
+    color: red;
+}
+
+.logo {
+    color: green;
+}
+
+.navigation {
+    color: blue;
+}
+
+.navigation__list {
+    color: goldenrod;
+}
+
+.navigation__item {
+    color: hotpink;
+}
+
+span.navigation__link {
+    color: blue;
+}
+
+.navigation__link {
+    color: yellow;
+}
