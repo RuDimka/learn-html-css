@@ -1,0 +1,83 @@
+.header__head {
+    color: blue; font-style: italic; font-family: sans-serif;
+}
+
+.navigation__head {
+    color: red; font-family: sans-serif;
+}
+
+.section__paragraph {
+    font-size: 32px; color: red; font-family: sans-serif; font-weight: bolder; font-style: italic;
+}
+
+.navigation__link {
+    color: green; font-family: sans-serif;
+}
+
+.section__head {
+    color: greenyellow; font-family: sans-serif; font-size: 28px;
+}
+
+.section__picture {
+    height: 480px; width: 640px;
+}
+
+.section__text {
+    color: purple; font-family: sans-serif; font-size: 18px;
+}
+
+.section__list {
+    color: blue; font-style: bold;
+}
+
+.section__item {
+    color: red;
+}
+
+.section__table {
+    border-top: red;
+}
+
+.table__head {
+    font-style: bold;
+}
+
+.table__row {
+    color: blueviolet;
+}
+
+.table__head {
+    font-style: bold;
+}
+
+.table__body {
+    color: yellow;
+}
+
+.table__date {
+    font-style: italic;
+}
+
+.section__details {
+    font-family: sans-serif; color: rgb(71, 255, 141);
+}
+
+.summary__text {
+    color: red;
+}
+
+.section__fieldset {
+    background-color: rosybrown;
+}
+
+.section__video {
+    height: 480px; width: 640px;
+}
+
+.section__text {
+    color: royalblue;
+}
+
+.footer__text {
+    font-style: bold;
+}
