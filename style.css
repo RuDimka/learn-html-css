@@ -1,5 +1,5 @@
 .header__head {
-    color: blue; font-style: italic; font-family: sans-serif;
+    color: blue; font-style: italic; font-family: sans-serif; text-shadow: 5px 5px 5px blue;
 }
 
 .navigation__head {
@@ -78,6 +78,18 @@
     color: royalblue;
 }
 
+span.footer__text {
+    color: red;
+}
+
 .footer__text {
-    font-style: bold;
+    font-style: bold;font-size: 14px; font-family: sans-serif;
+}
+
+.head__home {
+    font-size: 24px; font-family: sans-serif; font-style: bold; text-shadow: 10px 10px 10px red;
+}
+
+.home__index {
+    font-family: sans-serif; text-align: right; font-size: 32px; color: brown;
 }
