@@ -1,0 +1,51 @@
+.header {
+    text-shadow: 5px 5px 5px red;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contacts__paragraph {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer__tittle {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.navigation__link {
+    text-align: left;
+}
+
+.link__list {
+    color: red;
+   
+}
+
+.navigation__link{
+    color: red;
+    
+}
+
+body {
+    background-color: slategrey;
+}
+
+div.gallery__box {
+    margin-left: 20%;
+    padding: 2px;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: block;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.picture__image {
+    max-width: 800px;
+    max-height: 600px;
+}

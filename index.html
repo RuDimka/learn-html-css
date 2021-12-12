@@ -7,32 +7,45 @@
     <title>Автомобильная выставка на ВДНХ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
+<header class="header" id="home">
     <h1 class="header__tittle">Автомобильная выставка</h1>
     <nav class="navigation">
-        <a href="" class="navigation__link"></a>
-        <a href="" class="navigation__link"></a>
-        <a href="" class="navigation__link"></a>
+        <div class="navigation__link list">
+        <ul class="link__list">
+            <li class="list__item"><a href="#home" class="navigation__link">Главная</a></li>
+            <li class="list__item"><a href="#gallery" class="navigation__link">Галерея</a></li>
+            <li class="list__item"><a href="#contacts" class="navigation__link">Контакты</a></li>
+        </ul>
+        </div>
     </nav>
 </header>
 <hr>
-<main class="main">
-    <section class="section__contacts contacts">
-        <p class="contacts__paragraph">пр-т Мира, 119, Москва, 129223</p>
-        <p class="contacts__paragraph">Телефон: 8 (495) 544-34-00</p>
+<main class="main">    
+    <section class="section__gallery gallery" id="gallery">
+        <div class="gallery__box">
+            <div class="gallery__picture picture">
+                <img src="image1.jpg" alt="image1" class="picture__image">
+            </div>
+            <div class="gallery__picture picture">
+                <img src="image2.jpg" alt="image2" class="picture__image">
+            </div>
+            <div class="gallery__picture picture">
+                <img src="image3.jpg" alt="image3" class="picture__image">
+            </div>
+            <div class="gallery__picture picture">
+                <img src="image4.jpg" alt="image4" class="picture__image">
+            </div>
+        </div>
     </section>
     <hr>
-    <section class="section__gallery gallery">
-        <div class="gallery__picture picture">
-            <img src="image1.jpg" alt="" class="picture__image">
-            <img src="image2.jpg" alt="" class="picture__image">
-            <img src="image3.jpg" alt="" class="picture__image">
-            <img src="image4.jpg" alt="" class="picture__image">
-        </div>
+    <section class="section__contacts contacts" id="contacts">
+        <p class="contacts__paragraph">пр-т Мира, 119, Москва, 129223</p>
+        <p class="contacts__paragraph">Телефон: 8 (495) 544-34-00</p>
+        <iframe class="contacts__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17926.932890481974!2d37.6116667366205!3d55.83027450673251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b536676b2e6f75%3A0x91bd12197c6a68a1!2z0JLRi9GB0YLQsNCy0LrQsCDQtNC-0YHRgtC40LbQtdC90LjQuSDQvdCw0YDQvtC00L3QvtCz0L4g0YXQvtC30Y_QudGB0YLQstCwICjQktCU0J3QpSk!5e0!3m2!1sru!2sru!4v1639307191640!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 </main>
 <footer class="footer">
