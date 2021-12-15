@@ -37,6 +37,10 @@ div.body {
     text-decoration: unset;
 }
 
+.navigation {
+    word-spacing: 10px;
+}
+
 .header__navigation {
     border-left: none;
     border-right: none;
