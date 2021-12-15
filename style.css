@@ -1,5 +1,5 @@
 body {
-    border: 5px double red;
+    border: 5px double black;
     background-color: gray;
     margin-left: 150px;
     margin-right: 150px;
@@ -42,14 +42,16 @@ div.body {
 }
 
 .image__gallery {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+    padding-top: 10px;
+    display: inline;
+    box-sizing: border-box; 
 }
 
 div.section__image {
-    padding-top: 25px;   
-    display: inline;
-    box-sizing: border-box; 
+    padding-left: 20px;
+    padding-right: 0px;
 }
 
 .text__paragraph {
