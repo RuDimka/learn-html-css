@@ -1,23 +1,21 @@
 body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 232, 232);
+    width: 100%;
+    height: 100%;
+}
+
+.box {
     border: 5px double black;
-    background-color: gray;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-div.body {
+    width: 60%;
+    height: 500px;
     background-color: white;
-    padding-left: 240px;
-    padding-right: 240px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    margin: 10px auto;
+    padding: 10px 25px;
 
 }
-.header__tittle {
+.header__title {
     text-align: center; 
     font-size: 32px; 
     font-family: sans-serif; 
@@ -25,6 +23,7 @@ div.body {
 }
 
 .header__text {
+    line-height: 1;
     text-align: center; 
     font-family: "Lobster"; 
     font-size: 28px;
@@ -35,34 +34,37 @@ div.body {
     font-family: "Lobster"; 
     color: black; 
     text-decoration: unset;
+    text-align: center;
 }
 
 .navigation {
     word-spacing: 10px;
 }
 
-.header__navigation {
+.navigation {
+    line-height: 2;
     border-left: none;
     border-right: none;
     text-align: center; 
-    border-top: 5px solid green;
-    border-bottom: 4px solid green;
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    margin: 3px 150px;
+}
+
+.section__image {
+   text-align: center;
 }
 
 .image__gallery {
-    max-width: 220px;
-    max-height: 220px;
-    padding-top: 10px;
+    width: 220px;
+    height: 220px;   
     display: inline;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    
 }
 
-div.section__image {
-    padding-left: 20px;
-    padding-right: 0px;
-}
-
-.text__paragraph {
+.section__text {
+    line-height: 5;
     text-align: center; 
     font-family: "Lobster";
 }
