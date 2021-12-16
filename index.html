@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework-7</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header" id="home">
-    <img src="./logo.png" alt="logo" class="logo">
+    <img src="./logo.png" alt="logo" class="header__logo">
     <h1 class="header__title">Мой сайт портфолио</h1>
     <nav class="navigation">
         <h2 class="navigation__head">Навигация по странице</h2>
@@ -19,27 +22,28 @@
         <a href="#contacts" class="navigation__link">Контактная информация</a>
     </nav>
 </header>
-<hr>
+
 <main class="main">
-<section class="section" id="about-me">
-    <h2 class="section__title">Всем привет! Я веб-разработчик.</h2>
-    <p class="section__text">Начинающий фронтендер</p>
+<section class="section section--video" id="about-me">
+    <h2 class="section__title title--video">Всем привет! Я веб-разработчик.</h2>
+    <p class="section__text text--video">Начинающий фронтендер</p>
     <video src=".//video.mp4" class="section__video" autoplay muted> Ваш браузер не поддерживает данный формат</video>
-    <p class="section__text">Это видео которое будет на фоне</p>
+    <p class="section__text text--video">Это видео которое будет на фоне</p>
 </section>
-<hr>
-<section class="section">
-    <img src=".//picture.jpg" alt="picture" class="section__picture">
-    <h2 class="section__head">Немного обо мне</h2>
-    <p class="section__text">Я начинающий веб-разработчик, и это сайт в котором собраны мои лучшие работы. Здесь можешь написать что то интресное о себе как о веб-разработчике. Потренируй копирайт)</p>
+
+<section class="section section--image">
+    <!-- <img src=".//picture.jpg" alt="picture" class="section__picture"> -->
+    <h2 class="section__head title--image">Немного обо мне</h2>
+    <p class="section__text text--image">Я начинающий веб-разработчик, и это сайт в котором собраны мои лучшие работы. Здесь можешь написать что то интресное о себе как о веб-разработчике. Потренируй копирайт)</p>
+    <p class="section__text text--image">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Реторический пор буквоград встретил путь последний lorem жаренные ведущими там единственное рыбными подзаголовок жизни свое он, большого вершину возвращайся всеми речью грустный его пустился, наш о даже снова переписывается? Составитель о букв но проектах языком? Необходимыми запятых, образ сбить родного которой ведущими собрал свой запятой?)</p>
 </section>
-<hr>
-<section class="section" id="works">
-    <h2 class="section__head">Мои работы</h2>
+
+<section class="section section--works" id="works">
+    <h2 class="section__head title--works">Мои работы</h2>
     <audio src=".//music.mp3" class="section__audio" controls>Ваш браузер не поддерживает данный формат</audio>
-    <p class="section__text">Здесь пока ничего нет :(</p>
+    <p class="section__text text--audio">Аудио запись</p>
 </section>
-<hr>
+
 <section class="section">
     <h2 class="section__head">Мои навыки</h2>
     <ul class="section__list">
@@ -48,12 +52,12 @@
         <li class="list__item">Javascript 50%</li>
     </ul>
 </section>
-<hr>
+
 <section class="section">
     <h2 class="section__head">Блок с дополнительной видео-информацией</h2>
     <iframe class="section__iframe" width="560" height="315" src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
-<hr>
+
 <section class="section">
     <h2 class="section__head">Прайс-лист</h2>
     <table class="section__table">
@@ -95,7 +99,7 @@
         </tbody>        
     </table>
 </section>
-<hr>
+
 <section class="section">
     <h2 class="section__head">Преимущества работы со мной</h2>
     <details class="section__details">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
@@ -108,7 +112,7 @@
         <summary class="details__text">Применение современных технологий</summary>
     </details>
 </section>
-<hr>
+
 <section class="section">
     <fieldset class="section__fieldset">
         <legend class="fieldset__title">Форма обратной связи</legend><br>
@@ -143,7 +147,7 @@
         </form>
     </fieldset>
 </section>
-<hr>
+
 <section class="section" id="contacts">
     <h2 class="section__head">Контактная информация</h2>
     <p class="section__text">Email: test@example.com</p>
@@ -152,7 +156,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63520.674628420966!2d151.22338201826517!3d-33.82838941576999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ac879ca09f97%3A0x67d8c28b6de8bdba!2sHornby%20Lighthouse!5e0!3m2!1sru!2sru!4v1638533161965!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 </main>
-<hr>
+
 <footer class="footer">
     <img src="./logo.png" alt="logo" class="logo">
     <h2 class="footer__head">Мой сайт портфолио</h2>

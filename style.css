@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}                                   
+.header {
+    background-image: url('image2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header__logo {
+    width: 100px;
+    height: 50px;
+    text-align: left;
+}
+
+.header__title {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    line-height: 2;
+}
+
+.navigation__head {
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    font-synthesis: initial;
+    font-size: 32px;
+    line-height: 2;
+    text-shadow: 2px 2px 2px black;
+    line-height: 2;
+}
+
+.navigation {
+    font-size: 24px;
+    text-align: center;
+    font-style:initial;
+    line-height: 2;
+}
+
+.title--video {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: blue;
+    line-height: 2;
+}
+
+.section--video {
+    background-image: url('image2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+.section__video {
+    width: 80%;    
+    height: 500px;
+}
+
+.text--video {
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+}
+
+.section--image {
+    width: 100%;
+    height: 400px;
+    background-image: url('picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.title--image {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+    line-height: 2;
+}
+.text--image {
+    text-align: center;
+    font-size: 22px;
+    color: red;
+    line-height: 2;
+    font-style: italic;
+}
+
+.section--works {
+    background-image: url('image2.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.title--works {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+    text-shadow: 3px 3px 5px black;
+}
+
+.text--audio {
+    line-height: 2;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: bold;
+    text-align: center;
+}
