@@ -108,6 +108,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -117,6 +118,7 @@
     text-align: center;
     font-size: 32px;
     color: blue;
+    line-height: 5;
     text-shadow: 3px 3px 5px black;
 }
 
