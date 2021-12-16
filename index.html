@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework-7</title>
+    <title>Homework-12</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,120 +22,114 @@
         <a href="#contacts" class="navigation__link">Контактная информация</a>
     </nav>
 </header>
-
 <main class="main">
-<section class="section section--video" id="about-me">
+<section class="section section--video">
     <h2 class="section__title title--video">Всем привет! Я веб-разработчик.</h2>
     <p class="section__text text--video">Начинающий фронтендер</p>
     <video src=".//video.mp4" class="section__video" autoplay muted> Ваш браузер не поддерживает данный формат</video>
     <p class="section__text text--video">Это видео которое будет на фоне</p>
 </section>
-
-<section class="section section--image">
+<section class="section section--image"  id="about-me">
     <!-- <img src=".//picture.jpg" alt="picture" class="section__picture"> -->
     <h2 class="section__head title--image">Немного обо мне</h2>
     <p class="section__text text--image">Я начинающий веб-разработчик, и это сайт в котором собраны мои лучшие работы. Здесь можешь написать что то интресное о себе как о веб-разработчике. Потренируй копирайт)</p>
     <p class="section__text text--image">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Реторический пор буквоград встретил путь последний lorem жаренные ведущими там единственное рыбными подзаголовок жизни свое он, большого вершину возвращайся всеми речью грустный его пустился, наш о даже снова переписывается? Составитель о букв но проектах языком? Необходимыми запятых, образ сбить родного которой ведущими собрал свой запятой?)</p>
 </section>
-
 <section class="section section--works" id="works">
-    <h2 class="section__head title--works">Мои работы</h2>
+    <h2 class="section__title title--works">Мои работы</h2>
     <audio src=".//music.mp3" class="section__audio" controls>Ваш браузер не поддерживает данный формат</audio>
     <p class="section__text text--audio">Аудио запись</p>
 </section>
-
-<section class="section">
-    <h2 class="section__head">Мои навыки</h2>
-    <ul class="section__list">
+<section class="section section--skills">
+    <h2 class="section__title title--skills">Мои навыки</h2>
+    <ul class="skills__list">
         <li class="list__item">HTML 78%</li>
         <li class="list__item">CSS 35%</li>
         <li class="list__item">Javascript 50%</li>
     </ul>
 </section>
-
-<section class="section">
-    <h2 class="section__head">Блок с дополнительной видео-информацией</h2>
-    <iframe class="section__iframe" width="560" height="315" src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="section section--info">
+    <h2 class="section__title title--info">Блок с дополнительной видео-информацией</h2>
+    <iframe class="section__iframe iframe--info"  src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
-
-<section class="section">
-    <h2 class="section__head">Прайс-лист</h2>
-    <table class="section__table">
-        <thead class="table__head">
-            <tr class="table__row">
-                <th class="table__head">№</th>
-                <th class="table__head">Наименование услуги	</th>
-                <th class="table__head">Хостинг</th>
-                <th class="table__head">Многостраничность</th>
-                <th class="table__head">Админ панель</th>
-                <th class="table__head">Цена</th>
-            </tr>
+<section class="section section--table">
+    <h2 class="section__title title--price">Прайс-лист</h2>
+    <table class="table table--title">
+        <thead class="table__title table--row">
+        <tr class="table__row">
+            <th class="table__row">№</th>
+            <th class="table__row">Наименование услуги	</th>
+            <th class="table__row">Хостинг</th>
+            <th class="table__row">Многостраничность</th>
+            <th class="table__row">Админ панель</th>
+            <th class="table__row">Цена</th>
+        </tr>
         </thead>
         <tbody class="table__body">
-            <tr class="table__row">
-                <td class="table__date">1</td>
-                <td class="table__date">Лендинг</td>
-                <td class="table__date">есть</td>
-                <td class="table__date">нет</td>
-                <td class="table__date">нет</td>
-                <td class="table__date">5 000 руб.</td>
-            </tr>
-            <tr class="table__row">
-                <td class="table__date">2</td>
-                <td class="table__date">Сайт визитка</td>
-                <td class="table__date">есть</td>
-                <td class="table__date">есть</td>
-                <td class="table__date">нет</td>
-                <td class="table__date">10 000 руб.</td>
-            </tr>
-            <tr class="table__row">
-                <td class="table__date">3</td>
-                <td class="table__date">Интернет-магазин</td>
-                <td class="table__date">нет</td>
-                <td class="table__date">есть</td>
-                <td class="table__date">есть</td>
-                <td class="table__date">15 000 руб.</td>
-            </tr>
+        <tr class="table__row">
+            <td class="table__row">1</td>
+            <td class="table__row">Лендинг</td>
+            <td class="table__row">есть</td>
+            <td class="table__row">нет</td>
+            <td class="table__row">нет</td>
+            <td class="table__row">5 000 руб.</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__row">2</td>
+            <td class="table__row">Сайт визитка</td>
+            <td class="table__row">есть</td>
+            <td class="table__row">есть</td>
+            <td class="table__row">нет</td>
+            <td class="table__row">10 000 руб.</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__row">3</td>
+            <td class="table__row">Интернет-магазин</td>
+            <td class="table__row">нет</td>
+            <td class="table__row">есть</td>
+            <td class="table__row">есть</td>
+            <td class="table__row">15 000 руб.</td>
+        </tr>
         </tbody>        
     </table>
 </section>
 
-<section class="section">
-    <h2 class="section__head">Преимущества работы со мной</h2>
-    <details class="section__details">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
-        <summary class="details__summary">Быстрое решение ваших задач</summary>
+<section class="section__details details">
+    <h2 class="details__title">Преимущества работы со мной</h2>
+    <details class="details__text summary">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
+        <summary class="summary__text">Быстрое решение ваших задач</summary>
     </details>
-    <details class="section__details">Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Ты несколько послушавшись оксмокс напоивший?
-        <summary class="details__text">Качественное выполнение работы</summary>
+    <details class="details__text summary">Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Ты несколько послушавшись оксмокс напоивший?
+        <summary class="summary__text">Качественное выполнение работы</summary>
     </details>
-    <details class="section__details">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Прямо буквоград семь составитель, все встретил, большой необходимыми толку журчит океана запятых, взгляд выйти на берегу.
-        <summary class="details__text">Применение современных технологий</summary>
+    <details class="details__text summary">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Прямо буквоград семь составитель, все встретил, большой необходимыми толку журчит океана запятых, взгляд выйти на берегу.
+        <summary class="summary__text">Применение современных технологий</summary>
     </details>
 </section>
 
-<section class="section">
-    <fieldset class="section__fieldset">
+<section class="section__fieldset fieldser">
+    <fieldset class="fieldset">
         <legend class="fieldset__title">Форма обратной связи</legend><br>
         <form action="#" method="GET" class="section__form">
         <div class="form__name">
             <label for="firstnameText" class="input__name">Как Вас зовут?</label><br>
-            <input type="text" class="input__text" name="firsname" id="firstnameText"><br><br>
+            <input type="text" class="input__text" name="firsname" placeholder="Ivanov Ivan" id="firstnameText"><br><br>
         </div>
         <div class="form__select">
-            <label for="themeSelect" class="select__name">Тема для общения</label><br>
+            <label for="themeSelect" class="input__name">Тема для общения</label><br>
             <select name="select" id="" class="select__options">
                 <option value="Разработка сайта" class="option__text">Разработка сайта</option>
                 <option value="Изготовление дизайн макета" class="option__text">Изготовление дизайн макета</option>
                 <option value="Просто пообщаться" class="option__text">Просто пообщаться</option>
-                <option value="Другая тема" class="option__text">Другая тема</option>
+                <option value="Другая тема" class="input__name">Другая тема</option>
             </select><br><br><br>
         </div>
         <div class="form-file">
             <label for="imageFiles" class="input__file">Прикрепите изображение</label><br>
-            <input type="file" class="input__image" name="image" id="imageFiles"><br><br>
+            <input type="file" class="input__name" name="image" id="imageFiles"><br><br>
         </div>
         <div class="form__textarea">
-            <textarea name="text" id="" cols="30" rows="10" class="form-text">Ваше сообщение</textarea><br><br>
+            <textarea name="text" id="#" cols="100" rows="10" class="form-text">Ваше сообщение</textarea><br><br>
         </div>
         <div class="form__agree">
             <input type="checkbox" class="input__checkbox" name="agree" id="agreeCheckbox">
@@ -147,28 +141,26 @@
         </form>
     </fieldset>
 </section>
-
-<section class="section" id="contacts">
-    <h2 class="section__head">Контактная информация</h2>
-    <p class="section__text">Email: test@example.com</p>
-    <p class="section__text">Телефон: +7 (965) 000-00-00</p>
-    <p class="section__text">S Head Heritage Trail, Watsons Bay NSW 2030, Австралия</p>
+<section class="section__contacts contacts" id="contacts">
+    <h2 class="contacts__title">Контактная информация</h2>
+    <p class="contacts__text">Email: test@example.com</p>
+    <p class="contacts__text">Телефон: +7 (965) 000-00-00</p>
+    <p class="contacts__text">S Head Heritage Trail, Watsons Bay NSW 2030, Австралия</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63520.674628420966!2d151.22338201826517!3d-33.82838941576999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ac879ca09f97%3A0x67d8c28b6de8bdba!2sHornby%20Lighthouse!5e0!3m2!1sru!2sru!4v1638533161965!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 </main>
-
 <footer class="footer">
-    <img src="./logo.png" alt="logo" class="logo">
-    <h2 class="footer__head">Мой сайт портфолио</h2>
+    <img src="./logo.png" alt="logo" class="footer__logo">
+    <h2 class="footer__title">Мой сайт портфолио</h2>
     <p class="footer__text">Email: test@example.com</p>
     <p class="footer__text">Телефон: +7 (965) 000-00-00</p>
-    <span class="footer__text">Социальные сети:
-        <a href="https://vk.com/" class="footer__link">vkontakte</a>
-        <a href="https://twitter.com/" class="footer__link">twitter</a>
-        <a href="https://www.facebook.com/" class="footer__link">facebook</a>
-        <a href="https://www.instagram.com/?hl=ru" class="footer__link">instagram</a>
-    </span>
-    <p class="footer__text"><a href="./policy.html" class="footer__link">Политика конфиденциальности</a></p>
+    <span class="social__list social">Социальные сети:
+        <a href="https://vk.com/" class="social__link">vkontakte</a>
+        <a href="https://twitter.com/" class="social__link">twitter</a>
+        <a href="https://www.facebook.com/" class="social__link">facebook</a>
+        <a href="https://www.instagram.com/?hl=ru" class="social__link">instagram</a>
+    </span><br>
+    <a href="./policy.html" class="footer__policy">Политика конфиденциальности</a>
 </footer>  
 </body>
 </html>
