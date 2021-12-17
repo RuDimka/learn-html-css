@@ -16,46 +16,48 @@
     <h1 class="header__title">Мой сайт портфолио</h1>
     <nav class="navigation">
         <h2 class="navigation__title">Навигация по странице</h2>
-        <a href="#home" class="navigation__link">Главная</a>
-        <a href="#about-me" class="navigation__link">Обо мне</a>
-        <a href="#works" class="navigation__link">Мои работы</a>
-        <a href="#contacts" class="navigation__link">Контактная информация</a>
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#home" class="navigation__link">Главная</a></li>
+            <li class="navigation__item"><a href="#about-me" class="navigation__link">Обо мне</a></li>
+            <li class="navigation__item"><a href="#works" class="navigation__link">Мои работы</a></li>
+            <li class="navigation__item"><a href="#contacts" class="navigation__link">Контактная информация</a></li>
+        </ul> 
     </nav>
 </header>
 <main class="main">
-<section class="section__video video">
+<section class="section section__video">
     <h2 class="video__title">Всем привет! Я веб-разработчик.</h2>
     <p class="video__text">Начинающий фронтендер</p>
-    <video src=".//video.mp4" class="section__video" autoplay muted> Ваш браузер не поддерживает данный формат</video>
+    <video src=".//video.mp4" class="video" autoplay muted> Ваш браузер не поддерживает данный формат</video>
     <p class="video__text">Это видео которое будет на фоне</p>
 </section>
-<section class="section__about-me about-me"  id="about-me">
+<section class="section section__about-me"  id="about-me">
     <!-- <img src=".//picture.jpg" alt="picture" class="section__picture"> -->
     <h2 class="about-me__title">Немного обо мне</h2>
     <p class="about-me__text">Я начинающий веб-разработчик, и это сайт в котором собраны мои лучшие работы. Здесь можешь написать что то интресное о себе как о веб-разработчике. Потренируй копирайт)</p>
     <p class="about-me__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Реторический пор буквоград встретил путь последний lorem жаренные ведущими там единственное рыбными подзаголовок жизни свое он, большого вершину возвращайся всеми речью грустный его пустился, наш о даже снова переписывается? Составитель о букв но проектах языком? Необходимыми запятых, образ сбить родного которой ведущими собрал свой запятой?)</p>
 </section>
-<section class="section section--works" id="works">
-    <h2 class="section__title title--works">Мои работы</h2>
+<section class="section section__works" id="works">
+    <h2 class="works__title">Мои работы</h2>
     <audio src=".//music.mp3" class="section__audio" controls>Ваш браузер не поддерживает данный формат</audio>
-    <p class="section__text text--audio">Аудио запись</p>
+    <p class="audio__text">Аудио запись</p>
 </section>
-<section class="section section--skills">
-    <h2 class="section__title title--skills">Мои навыки</h2>
-    <ul class="skills__list">
-        <li class="list__item">HTML 78%</li>
-        <li class="list__item">CSS 35%</li>
-        <li class="list__item">Javascript 50%</li>
+<section class="section section__skills">
+    <h2 class="skills__title list">Мои навыки</h2>
+    <ul class="list__skills">
+        <li class="skills__item">HTML 78%</li>
+        <li class="skills__item">CSS 35%</li>
+        <li class="skills__item">Javascript 50%</li>
     </ul>
 </section>
-<section class="section section--info">
-    <h2 class="section__title title--info">Блок с дополнительной видео-информацией</h2>
-    <iframe class="section__iframe iframe--info"  src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="section section__info">
+    <h2 class="info__title">Блок с дополнительной видео-информацией</h2>
+    <iframe class="iframe__video"  src="https://www.youtube.com/embed/VZTzTbIEDDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
-<section class="section section--table">
-    <h2 class="section__title title--price">Прайс-лист</h2>
-    <table class="table table--title">
-        <thead class="table__title table--row">
+<section class="section section__table">
+    <h2 class="section__table--title">Прайс-лист</h2>
+    <table class="table">
+        <thead class="table__title">
         <tr class="table__row">
             <th class="table__row">№</th>
             <th class="table__row">Наименование услуги	</th>
