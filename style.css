@@ -31,19 +31,35 @@
 
 
 .container {
-    display: flex;
     width: 600px;
     height: 600px;
     background-color: grey;
-    flex-direction: row;
-    justify-content: space-between;
     margin: 0 auto;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
     border: 3px solid red;
     background-color: yellow;
+}
+
+.box--first {    
+    flex-direction: row;
+    align-content: flex-end;
+    width: 80px;
+    height: 80px;
+}
+
+.box--second {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.box--third {
     display: block;
     width: 80px;
     height: 80px;
