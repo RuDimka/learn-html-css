@@ -47,8 +47,8 @@
 }
 
 .box--first {    
-    flex-direction: row;
-    align-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     width: 80px;
     height: 80px;
 }
