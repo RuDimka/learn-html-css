@@ -2,6 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}    
+
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2') 
 }
 
 .page {
@@ -12,8 +19,8 @@
 
 .page_container {
     display: flex;
-    width: 900px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     margin: 0px auto;
     background-color: white;
     border-radius: 30px;
@@ -21,10 +28,23 @@
 
 .container_image {
     display: block;
-    margin: 0 auto;
+    margin: 50px 25px;
 }
 
 .image_background {
     width: 300px;
     height: 400px;
+}
+
+.info_featured {
+        margin: 50px auto;
+}
+
+.featured_text {
+    color: lightgray;
+}
+
+.featured_text:nth-child(2) {
+    color: black;
+    font-size: 24px;
 }
