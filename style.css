@@ -12,32 +12,34 @@
 
 .page_container {
     display: flex;
-    align-items: row;
-    max-width: 1140px;
-    margin: 0px auto;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
     background-color: white;
     border-radius: 30px;
+    justify-content: space-evenly;
 }
 
 .container_image {
     display: block;
-    margin: 50px 25px;
+    margin: 15px 5px 10px 20px;
 }
 
 .image_background {
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 .container_info {
     display: block;
     width: 600px;
-    height:550px;
+    height:500px;
+    margin: 0 auto;
 }
 
 .info_featured {
     display: block;
-    margin: 50px 10px;
+    margin: 20px 10px;
     width: 500px;
 }
 
@@ -56,7 +58,7 @@
 
 .info_process {
     display: block;
-    background-color: rgb(217, 234, 245);
+    background-color: rgb(231, 245, 253);
     width: 100px;
     height: 30px;
     margin: -30px 400px;
@@ -69,13 +71,14 @@
     font-weight: bold;
     text-align: center;
     padding: 5px 5px;
-    color: blue; 
+    color: rgb(86, 128, 245); 
 }
 
 .info_manager {
-    display: flex;
+    display: block;
     width: 150px;
     height: 150px;
+    margin: -100px 50px 50px 0;
     
 }
 
@@ -92,7 +95,7 @@
 
 .manager_name {
     display: block;
-    margin: 150px auto;
+    margin: -200px 0 10px 50px;
 }
 
 .name_manager {
@@ -108,16 +111,129 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.info_description {
-    display: block; 
-    width: 300px;
+.info_budget {
+    display: block;
+    width: 350px;
     height: 150px;
-    margin: 150px 0;
+    margin: -200px 150px 50px 200px;
+}
+
+.budget_circle {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 50px 50px;
+}
+
+.budget_price {
+    display: block;
+    margin: -100px 100px 5px;
+}
+
+.price_text {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.price_text:nth-child(2) {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info_description {
+    display: block;
+    margin: -100px 50px 50px 0px;
 }
 
 .description_text {
-    font-size: 14px;
+    font-size: 18px;
     color: gray;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+
+.info_date {
+    display: block;
+    margin: -30px 100px 50px 0px;
+    border: 1px dashed lightgray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 250px;
+    height: 60px;
+}
+
+.date_payment {
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.date_payment:nth-child(2) {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.total {
+    display: block;
+    margin: -110px 50px 50px 300px;
+    border: 1px dashed lightgray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 250px;
+    height: 60px;
+}
+
+.total_payment {
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.total_payment:nth-child(2) {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info_picture {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    width: 250px;
+    height: 60px;
+    gap: -10px;
+}
+
+.picture_people {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.picture_people:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    text-align: center;
+    padding: ;
+}
+
+.info_link {
+    display: block;
+    margin: -50px 10px 10px 400px;
+}
+
+.link_image {
+    width: 30px;
+    height: 30px;
 }
